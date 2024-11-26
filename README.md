@@ -26,20 +26,30 @@ Dynamic Content App is an iOS application designed to showcase various types of 
 
 ---
 
-## Screens  
-### Main Screen  
-- **Overview**: Displays groups of  content (Podcasts, Episodes, Audiobooks, Audio Articles).  
-- **UI Framework**: SwiftUI.  
-- **Features**:  
-  - Fetches dynamic content via API.  
-  - Modern and intuitive user experience.  
+## Handling Dynamic Sections with Factory Pattern  
+To handle dynamic types of sections returned from the API, the app uses the **Factory Pattern**. This allows different types of sections (e.g., podcasts, episodes, audiobooks) to be rendered differently, based on their specific type.
 
-### Detail Screen  
-- **Overview**: Displays detailed information about selected content.  
-- **UI Framework**: UIKit.  
-- **Features**:  
-  - Custom layouts.  
-  - Optimized performance for detailed views.  
+### Example: Podcast Section  
+For podcast sections, the app uses a `PodcastSectionFactory` to determine the view layout based on the section type.
+
+```swift
+struct PodcastSectionFactory: View {
+    let section: PodCastSection
+
+    var body: some View {
+        Section(header: headerView) {
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 16) {
+                    SectionViewFactory.makeView(for: section)
+                }
+                .background(.primaryBackground)
+                .padding(.horizontal, 8)
+            }
+            .background(.primaryBackground)
+            .accessibilityIdentifier("Section_Header")
+        }
+    }
+}
 
 ---
 

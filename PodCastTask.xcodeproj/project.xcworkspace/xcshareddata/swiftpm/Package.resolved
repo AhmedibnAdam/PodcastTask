@@ -1,0 +1,15 @@
+{
+  "originHash" : "d33c2444a2b16269a79828764d5ebd3a7685149554cabaf9e0129fb1c2c853c0",
+  "pins" : [
+    {
+      "identity" : "apinetworking",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AhmedibnAdam/APINetworking.git",
+      "state" : {
+        "revision" : "6b3b5d237cdf26dd7cb4465035dafe5e7d68cb47",
+        "version" : "0.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1,0 +1,24 @@
+//
+//  Development.xcconfig
+//  PodCastTask
+//
+//  Created by Ahmad on 20/11/2024.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+// Server URL
+SERVER_URL = api-v2-b2sit6oh3a-uc.a.run.app
+ROOT_URL = api-v2-b2sit6oh3a-uc.a.run.app
+Image_Base_URL = i.scdn.co
+SEARCH_BASE_URL = mock.apidog.com
+// Keys
+API_KEY =
+
+
+// App Settings
+ENVIRONMENT = PodCastTask
+APP_NAME = PodCastTask
+APP_BUNDLE_ID = Adam.PodCastTask

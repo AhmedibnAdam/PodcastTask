@@ -19,9 +19,9 @@ Dynamic Content App is an iOS application designed to showcase various types of 
 
 ## Tech Stack  
 - **Languages**: Swift  
-- **Frameworks**: SwiftUI, UIKit  
+- **UI Frameworks**: SwiftUI, UIKit  
 - **Architecture**: MVVM  
-- **Concurrency**: Async/Await  
+- **Concurrency**: Async/Await, Combine  
 - **Testing**: XCTest for UI and Unit Tests  
 
 ---

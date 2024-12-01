@@ -21,7 +21,6 @@ struct PodcastSectionsViews: View {
                 .listRowBackground(Color.primaryBackground)
                 .background(Color.primaryBackground.ignoresSafeArea())
             }
-            .scrollIndicators(.hidden)
             .listStyle(.plain)
     }
 }

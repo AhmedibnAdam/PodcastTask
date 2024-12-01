@@ -1,5 +1,4 @@
 # PodcastTask
-# Dynamic Content App
 
 ## Description  
 Dynamic Content App is an iOS application designed to showcase various types of audio content, such as podcasts, episodes, audiobooks, and audio articles. The app dynamically fetches and displays the latest content via an API while offering a clean and modern interface using SwiftUI and UIKit.
@@ -19,9 +18,9 @@ Dynamic Content App is an iOS application designed to showcase various types of 
 
 ## Tech Stack  
 - **Languages**: Swift  
-- **Frameworks**: SwiftUI, UIKit  
+- **UI Frameworks**: SwiftUI, UIKit  
 - **Architecture**: MVVM  
-- **Concurrency**: Async/Await  
+- **Concurrency**: Async/Await, Combine  
 - **Testing**: XCTest for UI and Unit Tests  
 
 ---
